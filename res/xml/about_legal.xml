@@ -37,11 +37,6 @@
         <intent android:action="android.settings.LICENSE"/>
     </Preference>
 
-    <!-- Lineage License information -->
-    <PreferenceScreen
-        android:key="lineagelicense"
-        android:title="@string/lineagelicense_title" />
-
     <!-- Terms and conditions -->
     <Preference
         android:key="terms"
@@ -62,4 +57,3 @@
         android:summary="@string/wallpaper_attributions_values"/>
 
 </PreferenceScreen>
-
