@@ -48,6 +48,13 @@
             android:targetClass="com.android.phone.MobileNetworkSettings" />
     </com.android.settingslib.RestrictedPreference>
 
+    <com.android.custom.preferences.SystemSettingSwitchPreference
+        android:key="show_fourg_icon"
+        android:title="@string/show_fourg_icon_title"
+        android:icon="@drawable/ic_fourg"
+        android:summary="@string/show_fourg_icon_summary"
+        android:defaultValue="false"/>
+
     <com.android.settingslib.RestrictedPreference
         android:fragment="com.android.settings.TetherSettings"
         android:key="tether_settings"
