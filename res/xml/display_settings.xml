@@ -83,6 +83,14 @@
         android:fragment="com.android.settings.display.AdaptiveSleepSettings"
         settings:controller="com.android.settings.display.AdaptiveSleepPreferenceController" />
 
+    <com.android.settings.display.DcDimmingPreference
+        android:key="dc_dimming"
+        android:title="@string/dc_dimming_title"
+        android:fragment="com.android.settings.display.DcDimmingSettings"
+        android:widgetLayout="@null"
+        settings:widgetLayout="@null"
+        settings:searchable="false"/>
+
     <SwitchPreference
         android:key="auto_rotate"
         android:title="@string/accelerometer_title"
