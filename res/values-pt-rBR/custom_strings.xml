@@ -69,4 +69,7 @@
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Deslize para a captura de tela</string>
     <string name="three_finger_gesture_summary">Deslize para baixo com três dedos para fazer uma captura de tela</string>
+
+    <!-- Maintainer -->
+    <string name="maintainer">Mantenedor</string>
 </resources>

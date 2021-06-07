@@ -79,4 +79,7 @@
         <item quantity="other">%d apps locked</item>
     </plurals>
     <string name="keywords_applock_settings">applock, applocker, app lock, app locker</string>
+
+    <!-- Maintainer -->
+    <string name="maintainer">Maintainer</string>
 </resources>
