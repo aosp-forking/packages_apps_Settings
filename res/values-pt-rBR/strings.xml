@@ -4855,8 +4855,8 @@
     <string name="enable_sizecompat_freeform_summary" msgid="1484050174538201499">"Permite que apps sizecompat fiquem em forma livre"</string>
     <string name="hwui_force_dark_title" msgid="4256904905631994219">"Modificar o recurso forçar modo escuro"</string>
     <string name="hwui_force_dark_summary" msgid="6515748781487952769">"Modificar o recurso de forçar modo escuro para que fique sempre ativado"</string>
-    <string name="enable_blurs_on_windows_title" msgid="4218144213800778872">"Permitir desfoques"</string>
-    <string name="enable_blurs_on_windows_summary" msgid="8962906921531490386">"Permite desfoques de janela no nível de compositor. É necessário reiniciar o dispositivo."</string>
+    <string name="enable_blurs_on_windows_title" msgid="4218144213800778872">"Permitir desfoque"</string>
+    <string name="enable_blurs_on_windows_summary" msgid="8962906921531490386">"Permite o desfoque de janela no nível do compositor. É necessário reiniciar o dispositivo."</string>
     <string name="privacy_dashboard_title" msgid="6845403825611829558">"Privacidade"</string>
     <string name="privacy_dashboard_summary" msgid="5775090172422786808">"Permissões, atividade da conta, dados pessoais"</string>
     <string name="contextual_card_dismiss_remove" msgid="8636557343011606722">"Remover"</string>
