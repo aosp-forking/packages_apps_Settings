@@ -70,6 +70,43 @@
     <string name="three_finger_gesture">Deslize para a captura de tela</string>
     <string name="three_finger_gesture_summary">Deslize para baixo com três dedos para fazer uma captura de tela</string>
 
+    <!-- Adaptive Playback -->
+    <string name="adaptive_playback_screen_title">Reprodução adaptativa</string>
+    <string name="adaptive_playback_disabled_summary">Desligado</string>
+    <string name="adaptive_playback_timeout_title">Use um tempo limite de</string>
+    <string name="adaptive_playback_timeout_none">Sem limite de tempo</string>
+    <string name="adaptive_playback_timeout_none_summary">Ligado (Sem limite de tempo)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 segundos</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Ligado (30 segundos)</string>
+    <string name="adaptive_playback_timeout_1_min">1 minuto</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Ligado (1 minuto)</string>
+    <string name="adaptive_playback_timeout_2_min">2 minutos</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Ligado (2 minutos)</string>
+    <string name="adaptive_playback_timeout_5_min">5 minutos</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Ligado (5 minutos)</string>
+    <string name="adaptive_playback_timeout_10_min">10 minutos</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Ligado (10 minutos)</string>
+
+    <!-- App Lock -->
+    <string name="applock_title">Bloqueio de aplicativos</string>
+    <string name="applock_locked">Bloqueado</string>
+    <string name="applock_unlocked">Desbloqueado</string>
+    <string name="applock_locked_apps">Bloquear aplicativos</string>
+    <string name="applock_unlocked_apps">Desbloquear aplicativos</string>
+    <string name="applock_show_only_on_wake">Autentique apenas uma vez</string>
+    <string name="applock_show_only_on_wake_on_summary">Depois de autenticado, o aplicativo permanece desbloqueado até que a tela desligue</string>
+    <string name="applock_show_only_on_wake_off_summary">Depois de autenticado, o aplicativo permanece desbloqueado por 15 segundos após sair</string>
+    <string name="applock_notification_info">Você pode mostrar ou ocultar o conteúdo da notificação por aplicativo clicando no ícone de notificação mostrado nas preferências de cada aplicativo bloqueado</string>
+    <string name="applock_show_notif">Mostrar o conteúdo da notificação</string>
+    <string name="applock_hide_notif">Ocultar o conteúdo da notificação</string>
+    <string name="applock_setup">Configurar o bloqueio de aplicativos</string>
+    <string name="applock_overlay_summary">Este recurso não está disponível porque este aplicativo está bloqueado</string>
+    <plurals name="applock_summary">
+        <item quantity="one">1 aplicativo bloqueado</item>
+        <item quantity="other">%d aplicativos bloqueados</item>
+    </plurals>
+    <string name="keywords_applock_settings">applock, applocker, bloqueio de aplicativos, bloqueador de aplicativos</string>
+
     <!-- Maintainer -->
     <string name="maintainer">Mantenedor</string>
 </resources>

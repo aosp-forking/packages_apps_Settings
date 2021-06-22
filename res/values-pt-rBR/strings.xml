@@ -4449,7 +4449,7 @@
     <string name="gesture_preference_summary" product="default" msgid="7941981260703379398">"Gestos rápidos para controlar seu smartphone"</string>
     <string name="gesture_preference_summary" product="tablet" msgid="4031666250963488007">"Gestos rápidos para controlar seu tablet"</string>
     <string name="gesture_preference_summary" product="device" msgid="3520072325356373349">"Gestos rápidos para controlar seu dispositivo"</string>
-    <string name="double_tap_power_for_camera_title" msgid="7982364144330923683">"Abrir a câmera rápido"</string>
+    <string name="double_tap_power_for_camera_title" msgid="7982364144330923683">"Abrir a câmera rápidamente"</string>
     <string name="double_tap_power_for_camera_summary" msgid="1100926048598415509">"Para abrir a câmera rapidamente, pressione o botão liga/desliga duas vezes. O recurso funciona em qualquer tela."</string>
     <string name="double_tap_power_for_camera_suggestion_title" msgid="4299496243418753571">"Abrir a câmera rapidamente"</string>
     <string name="double_twist_for_camera_mode_title" msgid="472455236910935684">"Virar câmera para tirar selfie"</string>
