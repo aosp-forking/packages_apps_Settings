@@ -1,33 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-  Copyright (C) 2018 The Android Open Source Project
-
-  Licensed under the Apache License, Version 2.0 (the "License");
-  you may not use this file except in compliance with the License.
-  You may obtain a copy of the License at
-
-       http://www.apache.org/licenses/LICENSE-2.0
-
-  Unless required by applicable law or agreed to in writing, software
-  distributed under the License is distributed on an "AS IS" BASIS,
-  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  See the License for the specific language governing permissions and
-  limitations under the License.
-  -->
-
-<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-
-    <item>
-        <com.android.settingslib.widget.AdaptiveIconShapeDrawable
-            android:width="@dimen/dashboard_tile_image_size"
-            android:height="@dimen/dashboard_tile_image_size"
-            android:color="@color/dashboard_hycon_privacy" />
-    </item>
-
-    <item
-        android:width="@dimen/dashboard_tile_foreground_image_size"
-        android:height="@dimen/dashboard_tile_foreground_image_size"
-        android:start="@dimen/dashboard_tile_foreground_image_inset"
-        android:top="@dimen/dashboard_tile_foreground_image_inset"
-        android:drawable="@drawable/ic_hycon_privacy"/>
-</layer-list>
+<vector xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:height="@dimen/header_icon_size" android:width="@dimen/header_icon_size" android:viewportWidth="66" android:viewportHeight="66">
+    <path android:fillColor="#fff2f2f2" android:pathData="M0,0l66,0l0,66l-66,0z" android:strokeColor="#00000000" android:strokeWidth="1" android:fillAlpha="0" android:fillType="nonZero"/>
+    <path android:fillColor="#ff0097ff" android:pathData="M4,33.425C8.77,21.4108 19.781,13 32.6025,13C45.4239,13 56.4349,21.4108 61.205,33.425C56.4349,45.4392 45.4239,53.85 32.6025,53.85C19.781,53.85 8.77,45.4392 4,33.425ZM32.5,45.5C39.1274,45.5 44.5,40.1274 44.5,33.5C44.5,26.8726 39.1274,21.5 32.5,21.5C25.8726,21.5 20.5,26.8726 20.5,33.5C20.5,40.1274 25.8726,45.5 32.5,45.5ZM32.5,41.5C28.0817,41.5 24.5,37.9183 24.5,33.5C24.5,29.0817 28.0817,25.5 32.5,25.5C36.9183,25.5 40.5,29.0817 40.5,33.5C40.5,37.9183 36.9183,41.5 32.5,41.5Z" android:strokeColor="#00000000" android:strokeWidth="1" android:fillType="evenOdd"/>
+</vector>

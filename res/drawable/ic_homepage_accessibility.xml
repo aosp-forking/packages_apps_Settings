@@ -1,33 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-  Copyright (C) 2018 The Android Open Source Project
-
-  Licensed under the Apache License, Version 2.0 (the "License");
-  you may not use this file except in compliance with the License.
-  You may obtain a copy of the License at
-
-       http://www.apache.org/licenses/LICENSE-2.0
-
-  Unless required by applicable law or agreed to in writing, software
-  distributed under the License is distributed on an "AS IS" BASIS,
-  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  See the License for the specific language governing permissions and
-  limitations under the License.
-  -->
-
-<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-
-    <item>
-        <com.android.settingslib.widget.AdaptiveIconShapeDrawable
-            android:width="@dimen/dashboard_tile_image_size"
-            android:height="@dimen/dashboard_tile_image_size"
-            android:color="@color/dashboard_hycon_accessibility" />
-    </item>
-
-    <item
-        android:width="@dimen/dashboard_tile_foreground_image_size"
-        android:height="@dimen/dashboard_tile_foreground_image_size"
-        android:start="@dimen/dashboard_tile_foreground_image_inset"
-        android:top="@dimen/dashboard_tile_foreground_image_inset"
-        android:drawable="@drawable/ic_hycon_accessibility" />
-</layer-list>
+<vector xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:height="@dimen/header_icon_size" android:width="@dimen/header_icon_size" android:viewportWidth="66" android:viewportHeight="66">
+    <path android:fillColor="#fff2f2f2" android:pathData="M-1,-1l68,0l0,68l-68,0z" android:strokeColor="#00000000" android:strokeWidth="1" android:fillAlpha="0" android:fillType="nonZero"/>
+    <path android:fillColor="#ffa7bdea" android:pathData="M33,5.8C48.0221,5.8 60.2,17.9779 60.2,33C60.2,48.0221 48.0221,60.2 33,60.2C17.9779,60.2 5.8,48.0221 5.8,33C5.8,17.9779 17.9779,5.8 33,5.8ZM33,36.4C34.8778,36.4 36.4,34.8778 36.4,33C36.4,31.1222 34.8778,29.6 33,29.6C31.1222,29.6 29.6,31.1222 29.6,33C29.6,34.8778 31.1222,36.4 33,36.4ZM20.5333,36.4C22.4111,36.4 23.9333,34.8778 23.9333,33C23.9333,31.1222 22.4111,29.6 20.5333,29.6C18.6556,29.6 17.1333,31.1222 17.1333,33C17.1333,34.8778 18.6556,36.4 20.5333,36.4ZM45.4667,36.4C47.3444,36.4 48.8667,34.8778 48.8667,33C48.8667,31.1222 47.3444,29.6 45.4667,29.6C43.5889,29.6 42.0667,31.1222 42.0667,33C42.0667,34.8778 43.5889,36.4 45.4667,36.4Z" android:strokeColor="#00000000" android:strokeWidth="1" android:fillType="nonZero"/>
+</vector>

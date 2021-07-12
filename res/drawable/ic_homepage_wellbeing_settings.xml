@@ -1,30 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
-     Copyright (C) 2021 Project 404
-     Licensed under the Apache License, Version 2.0 (the "License");
-     you may not use this file except in compliance with the License.
-     You may obtain a copy of the License at
-          http://www.apache.org/licenses/LICENSE-2.0
-     Unless required by applicable law or agreed to in writing, software
-     distributed under the License is distributed on an "AS IS" BASIS,
-     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-     See the License for the specific language governing permissions and
-     limitations under the License.
--->
-
-<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-
-    <item>
-        <com.android.settingslib.widget.AdaptiveIconShapeDrawable
-            android:width="@dimen/dashboard_tile_image_size"
-            android:height="@dimen/dashboard_tile_image_size"
-            android:color="@color/dashboard_hycon_wellbeing" />
-    </item>
-
-    <item
-        android:width="@dimen/dashboard_tile_foreground_image_size"
-        android:height="@dimen/dashboard_tile_foreground_image_size"
-        android:start="@dimen/dashboard_tile_foreground_image_inset"
-        android:top="@dimen/dashboard_tile_foreground_image_inset"
-        android:drawable="@drawable/ic_hycon_wellbeing" />
-</layer-list>
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:name="vector"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:name="path"
+        android:pathData="M 15.85 2.501 C 16.481 2.501 17.111 2.59 17.71 2.791 C 21.401 3.991 22.731 8.041 21.62 11.581 C 20.99 13.39 19.96 15.041 18.611 16.39 C 16.68 18.26 14.561 19.92 12.28 21.35 L 12.03 21.501 L 11.77 21.34 C 9.481 19.92 7.35 18.26 5.401 16.38 C 4.061 15.031 3.03 13.39 2.39 11.581 C 1.26 8.041 2.59 3.991 6.321 2.77 C 6.611 2.67 6.91 2.6 7.21 2.561 L 7.33 2.561 C 7.611 2.52 7.89 2.501 8.17 2.501 L 8.28 2.501 C 8.91 2.52 9.52 2.63 10.111 2.831 L 10.17 2.831 C 10.21 2.85 10.24 2.871 10.26 2.89 C 10.481 2.961 10.69 3.041 10.89 3.151 L 11.27 3.321 C 11.362 3.37 11.465 3.445 11.554 3.509 C 11.61 3.55 11.661 3.587 11.7 3.611 C 11.716 3.62 11.733 3.63 11.749 3.64 C 11.835 3.69 11.925 3.742 12 3.8 C 13.111 2.951 14.46 2.491 15.85 2.501 Z M 18.51 9.701 C 18.92 9.69 19.27 9.361 19.3 8.94 L 19.3 8.821 C 19.33 7.42 18.481 6.151 17.19 5.661 C 16.78 5.52 16.33 5.741 16.18 6.161 C 16.04 6.581 16.26 7.041 16.68 7.19 C 17.321 7.43 17.75 8.061 17.75 8.76 L 17.75 8.791 C 17.731 9.02 17.8 9.241 17.94 9.411 C 18.08 9.581 18.29 9.68 18.51 9.701 Z"
+        android:fillColor="#ff3b3b"
+        android:strokeWidth="1"
+        android:fillType="evenOdd"/>
+</vector>

@@ -1,33 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-  Copyright (C) 2018 The Android Open Source Project
-
-  Licensed under the Apache License, Version 2.0 (the "License");
-  you may not use this file except in compliance with the License.
-  You may obtain a copy of the License at
-
-       http://www.apache.org/licenses/LICENSE-2.0
-
-  Unless required by applicable law or agreed to in writing, software
-  distributed under the License is distributed on an "AS IS" BASIS,
-  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  See the License for the specific language governing permissions and
-  limitations under the License.
-  -->
-
-<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-
-    <item>
-        <com.android.settingslib.widget.AdaptiveIconShapeDrawable
-            android:width="@dimen/dashboard_tile_image_size"
-            android:height="@dimen/dashboard_tile_image_size"
-            android:color="@color/dashboard_hycon_apps" />
-    </item>
-
-    <item
-        android:width="@dimen/dashboard_tile_foreground_image_size"
-        android:height="@dimen/dashboard_tile_foreground_image_size"
-        android:start="@dimen/dashboard_tile_foreground_image_inset"
-        android:top="@dimen/dashboard_tile_foreground_image_inset"
-        android:drawable="@drawable/ic_hycon_apps" />
-</layer-list>
+<vector xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:height="@dimen/header_icon_size" android:width="@dimen/header_icon_size" android:viewportWidth="64" android:viewportHeight="64">
+    <path android:fillColor="#ff2eafff" android:pathData="M21.947,9.8132C22.4361,9.8132 22.6807,9.8132 22.9109,9.7579C23.115,9.7089 23.3101,9.6281 23.489,9.5185C23.6909,9.3948 23.8638,9.2218 24.2097,8.8759L27.8284,5.2573C29.2789,3.8067 29.956,3.4317 30.7699,3.185C31.5838,2.9383 32.4162,2.9383 33.2301,3.185C34.044,3.4317 34.7211,3.8067 36.1716,5.2573L39.7903,8.8759C40.1362,9.2218 40.3091,9.3948 40.511,9.5185C40.6899,9.6281 40.885,9.7089 41.0891,9.7579C41.3193,9.8132 41.5639,9.8132 42.053,9.8132H47.6331C49.6845,9.8132 50.4284,10.0268 51.1784,10.4279C51.9284,10.8289 52.5169,11.4175 52.918,12.1675C53.3191,12.9175 53.5327,13.6613 53.5327,15.7128V21.2928C53.5327,21.782 53.5327,22.0266 53.588,22.2568C53.637,22.4609 53.7178,22.656 53.8274,22.8349C53.9511,23.0367 54.1241,23.2097 54.47,23.5556L58.7427,27.8284C60.1933,29.2789 60.5683,29.956 60.815,30.7699C61.0617,31.5838 61.0617,32.4162 60.815,33.2301C60.5683,34.044 60.1933,34.7211 58.7427,36.1716L54.47,40.4444C54.1241,40.7903 53.9511,40.9633 53.8274,41.1651C53.7178,41.344 53.637,41.5391 53.588,41.7432C53.5327,41.9734 53.5327,42.218 53.5327,42.7071V47.6331C53.5327,49.6845 53.3191,50.4284 52.918,51.1784C52.5169,51.9284 51.9284,52.5169 51.1784,52.918C50.4284,53.3191 49.6845,53.5327 47.6331,53.5327H42.7071C42.218,53.5327 41.9734,53.5327 41.7432,53.588C41.5391,53.637 41.344,53.7178 41.1651,53.8274C40.9633,53.9511 40.7903,54.1241 40.4444,54.47L36.1716,58.7427C34.7211,60.1933 34.044,60.5683 33.2301,60.815C32.4162,61.0617 31.5838,61.0617 30.7699,60.815C29.956,60.5683 29.2789,60.1933 27.8284,58.7427L23.5556,54.47C23.2097,54.1241 23.0367,53.9511 22.8349,53.8274C22.656,53.7178 22.4609,53.637 22.2568,53.588C22.0266,53.5327 21.782,53.5327 21.2929,53.5327H15.7128C13.6613,53.5327 12.9175,53.3191 12.1675,52.918C11.4175,52.5169 10.8289,51.9284 10.4279,51.1784C10.0268,50.4284 9.8132,49.6845 9.8132,47.6331V42.053C9.8132,41.5639 9.8132,41.3193 9.7579,41.0891C9.7089,40.885 9.6281,40.6899 9.5185,40.511C9.3948,40.3091 9.2218,40.1362 8.8759,39.7903L5.2573,36.1716C3.8067,34.7211 3.4317,34.044 3.185,33.2301C2.9383,32.4162 2.9383,31.5838 3.185,30.7699C3.4317,29.956 3.8067,29.2789 5.2573,27.8284L8.8759,24.2097C9.2218,23.8638 9.3948,23.6909 9.5185,23.489C9.6281,23.3101 9.7089,23.115 9.7579,22.9109C9.8132,22.6807 9.8132,22.4361 9.8132,21.947V15.7128C9.8132,13.6613 10.0268,12.9175 10.4279,12.1675C10.8289,11.4175 11.4175,10.8289 12.1675,10.4279C12.9175,10.0268 13.6613,9.8132 15.7128,9.8132H21.947ZM31.7628,40.9669C36.8461,40.9669 40.9669,36.8461 40.9669,31.7628C40.9669,26.6796 36.8461,22.5587 31.7628,22.5587C26.6796,22.5587 22.5587,26.6796 22.5587,31.7628C22.5587,36.8461 26.6796,40.9669 31.7628,40.9669Z" android:fillType="evenOdd"/>
+</vector>

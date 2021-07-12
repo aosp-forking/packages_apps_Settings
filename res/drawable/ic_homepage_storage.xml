@@ -1,33 +1,19 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
-  Copyright (C) 2018 The Android Open Source Project
-
-  Licensed under the Apache License, Version 2.0 (the "License");
-  you may not use this file except in compliance with the License.
-  You may obtain a copy of the License at
-
-       http://www.apache.org/licenses/LICENSE-2.0
-
-  Unless required by applicable law or agreed to in writing, software
-  distributed under the License is distributed on an "AS IS" BASIS,
-  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  See the License for the specific language governing permissions and
-  limitations under the License.
-  -->
-
-<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-
-    <item>
-        <com.android.settingslib.widget.AdaptiveIconShapeDrawable
-            android:width="@dimen/dashboard_tile_image_size"
-            android:height="@dimen/dashboard_tile_image_size"
-            android:color="@color/dashboard_hycon_storage" />
-    </item>
-
-    <item
-        android:width="@dimen/dashboard_tile_foreground_image_size"
-        android:height="@dimen/dashboard_tile_foreground_image_size"
-        android:start="@dimen/dashboard_tile_foreground_image_inset"
-        android:top="@dimen/dashboard_tile_foreground_image_inset"
-        android:drawable="@drawable/ic_hycon_storage" />
-</layer-list>
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:name="vector"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:name="path"
+        android:pathData="M 2.833 1 C 1.821 1 1 1.821 1 2.833 L 1 3.75 C 1 4.763 1.821 5.583 2.833 5.583 L 21.167 5.583 C 22.179 5.583 23 4.763 23 3.75 L 23 2.833 C 23 1.821 22.179 1 21.167 1 L 2.833 1 Z M 3.292 2.833 C 3.039 2.833 2.833 3.039 2.833 3.292 C 2.833 3.545 3.039 3.75 3.292 3.75 L 20.708 3.75 C 20.962 3.75 21.167 3.545 21.167 3.292 C 21.167 3.039 20.962 2.833 20.708 2.833 L 3.292 2.833 Z M 2.833 6.5 C 1.821 6.5 1 7.321 1 8.333 L 1 12 C 1 13.012 1.821 13.833 2.833 13.833 L 21.167 13.833 C 22.179 13.833 23 13.012 23 12 L 23 8.333 C 23 7.321 22.179 6.5 21.167 6.5 L 2.833 6.5 Z M 3.75 9.25 C 3.244 9.25 2.833 9.66 2.833 10.167 C 2.833 10.673 3.244 11.083 3.75 11.083 L 20.25 11.083 C 20.756 11.083 21.167 10.673 21.167 10.167 C 21.167 9.66 20.756 9.25 20.25 9.25 L 3.75 9.25 Z M 2.833 14.75 C 1.821 14.75 1 15.571 1 16.583 L 1 21.167 C 1 22.179 1.821 23 2.833 23 L 21.167 23 C 22.179 23 23 22.179 23 21.167 L 23 16.583 C 23 15.571 22.179 14.75 21.167 14.75 L 2.833 14.75 Z M 4.208 17.5 C 3.449 17.5 2.833 18.116 2.833 18.875 C 2.833 19.634 3.449 20.25 4.208 20.25 L 19.792 20.25 C 20.551 20.25 21.167 19.634 21.167 18.875 C 21.167 18.116 20.551 17.5 19.792 17.5 L 4.208 17.5 Z"
+        android:fillColor="#fff628"
+        android:strokeWidth="1"
+        android:fillType="evenOdd"/>
+    <path
+        android:name="path_1"
+        android:pathData="M 6.5 18.875 C 6.5 19.128 6.295 19.333 6.042 19.333 C 5.789 19.333 5.583 19.128 5.583 18.875 C 5.583 18.622 5.789 18.417 6.042 18.417 C 6.295 18.417 6.5 18.622 6.5 18.875 Z M 8.333 18.875 C 8.333 19.128 8.128 19.333 7.875 19.333 C 7.622 19.333 7.417 19.128 7.417 18.875 C 7.417 18.622 7.622 18.417 7.875 18.417 C 8.128 18.417 8.333 18.622 8.333 18.875 Z"
+        android:fillColor="#fff628"
+        android:strokeWidth="1"/>
+</vector>

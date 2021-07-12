@@ -17,6 +17,7 @@
 <resources>
     <dimen name="match_parent">-1px</dimen>
 
+    <dimen name="header_icon_size">24dp</dimen>
     <dimen name="device_memory_usage_button_width">16dip</dimen>
     <dimen name="device_memory_usage_button_height">32dip</dimen>
     <dimen name="action_bar_switch_padding">16dip</dimen>
