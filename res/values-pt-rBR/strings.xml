@@ -4856,7 +4856,7 @@
     <string name="hwui_force_dark_title" msgid="4256904905631994219">"Modificar o recurso forçar modo escuro"</string>
     <string name="hwui_force_dark_summary" msgid="6515748781487952769">"Modificar o recurso de forçar modo escuro para que fique sempre ativado"</string>
     <string name="enable_blurs_on_windows_title" msgid="4218144213800778872">"Permitir desfoque"</string>
-    <string name="enable_blurs_on_windows_summary" msgid="8962906921531490386">"Permite o desfoque de janela no nível do compositor. É necessário reiniciar o dispositivo."</string>
+    <string name="enable_blurs_on_windows_summary" msgid="8962906921531490386">"Permite o desfoque de janela no nível do compositor. Requer reinicialização"</string>
     <string name="privacy_dashboard_title" msgid="6845403825611829558">"Privacidade"</string>
     <string name="privacy_dashboard_summary" msgid="5775090172422786808">"Permissões, atividade da conta, dados pessoais"</string>
     <string name="contextual_card_dismiss_remove" msgid="8636557343011606722">"Remover"</string>
@@ -4968,11 +4968,4 @@
     <string name="bluetooth_phonebook_access_notification_content" msgid="4280361621526852063">"Um dispositivo não confiável quer acessar seus contatos e seu registro de chamadas. Toque para ver detalhes."</string>
     <string name="bluetooth_phonebook_access_dialog_title" msgid="7624607995928968721">"Conceder acesso aos contatos e ao registro de chamadas?"</string>
     <string name="bluetooth_phonebook_access_dialog_content" msgid="4766700015848574532">"Um dispositivo Bluetooth não confiável, <xliff:g id="DEVICE_NAME_0">%1$s</xliff:g>, quer acessar seus contatos e seu registro de chamadas. Isso inclui dados sobre chamadas recebidas e realizadas.\n\nVocê não se conectou a <xliff:g id="DEVICE_NAME_1">%2$s</xliff:g> antes."</string>
-
-    <!-- Refresh rate -->
-    <string name="min_refresh_rate_title">Taxa mínima de atualização</string>
-    <string name="max_refresh_rate_title">Taxa máxima de atualização</string>
-    <string name="battery_saver_refresh_rate_title">Reduza a taxa de atualização</string>
-    <string name="battery_saver_refresh_rate_summary">Use 60 Hz como taxa de atualização máxima para economizar energia quando a Economia de bateria estiver ativada</string>
-
 </resources>
