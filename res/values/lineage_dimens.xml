@@ -20,5 +20,5 @@
     <dimen name="fingerprint_find_sensor_padding_top">16dp</dimen>
     
     <!-- Custom Settings Bar-->
-    <dimen name="custom_settings_bar_height">124dp</dimen>
+    <dimen name="custom_settings_bar_height">130dp</dimen>
 </resources>
