@@ -107,12 +107,17 @@
         android:summary="@string/display_white_balance_summary"
         settings:controller="com.android.settings.display.DisplayWhiteBalancePreferenceController" />
 
-    <Preference
-        android:key="refresh_rate"
-        android:title="@string/refresh_rate_title"
+    <ListPreference
+        android:key="min_refresh_rate"
+        android:title="@string/min_refresh_rate_title"
         android:summary="@string/summary_placeholder"
-        android:fragment="com.android.settings.display.RefreshRateSettingsFragment"
-        settings:controller="com.android.settings.display.RefreshRatePreferenceController" />
+        settings:controller="com.android.settings.display.MinRefreshRatePreferenceController" />
+
+    <ListPreference
+        android:key="peak_refresh_rate"
+        android:title="@string/max_refresh_rate_title"
+        android:summary="@string/summary_placeholder"
+        settings:controller="com.android.settings.display.PeakRefreshRatePreferenceController" />
 
     <Preference
         android:key="font_size"

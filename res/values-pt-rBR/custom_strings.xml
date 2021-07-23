@@ -111,11 +111,8 @@
     <string name="maintainer">Mantenedor</string>
 
     <!-- Refresh rate -->
-    <string name="refresh_rate_title">Taxa de atualização</string>
     <string name="min_refresh_rate_title">Taxa mínima de atualização</string>
     <string name="max_refresh_rate_title">Taxa máxima de atualização</string>
-    <string name="preferred_refresh_rate_title">Taxa de atualização preferida</string>
-    <string name="preferred_refresh_rate_info">A taxa de atualização preferencial será usada como a taxa de atualização padrão para interações do usuário, desde que não seja inferior à taxa de atualização mínima e não superior à taxa de atualização máxima. </string>
     <string name="battery_saver_refresh_rate_title">Reduza a taxa de atualização</string>
     <string name="battery_saver_refresh_rate_summary">Use 60 Hz como taxa de atualização máxima para economizar energia quando a Economia de bateria estiver ativada</string>
 
